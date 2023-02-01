@@ -45,9 +45,8 @@ public class Game21Sticks {
         return sticksToTake;
     }
 
-    public static int reduceStickBalance(int step){
+    public static void reduceStickBalance(int step){
         sticks = sticks-step;
-        return sticks;
     }
 
     public void game(){
